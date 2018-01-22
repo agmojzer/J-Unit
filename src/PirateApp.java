@@ -12,7 +12,7 @@ public class PirateApp {
 		Pirate p2 = new Pirate("Blackbeard");
 		pirates.add(p2);
 		System.out.println(p2.getName()+" added. # of pirates = "+Pirate.getNumPirates());
-		Pirate p3 = new Pirate("Stubby");
+		Pirate p3 = new Pirate("Stubby", 3);
 		pirates.add(p3);
 		System.out.println(p3.getName()+" added. # of pirates = "+Pirate.getNumPirates());
 		System.out.println();
